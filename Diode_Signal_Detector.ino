@@ -1,13 +1,10 @@
 //Diode Signal Detector on ESP32
-
 const int signalPin = 25; // Pin connected after the diode
-
 
 void setup() {
   Serial.begin(115200);
   pinMode(signalPin, INPUT);
   // put your setup code here, to run once:
-
 }
 
 void loop() {
@@ -22,5 +19,4 @@ void loop() {
 
   delay(500);
   // put your main code here, to run repeatedly:
-
 }
